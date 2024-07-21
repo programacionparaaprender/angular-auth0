@@ -1,5 +1,16 @@
 # AngularAuth0
 
+### tutorial
+>- https://dev.to/ricardochl/angular-login-with-auth0-4d8l
+
+### crear proyecto 
+>- ng new angular-auth0 --routing --style=scss
+>- ng g c pages/home
+>- ng g c components/login-button
+>- ng g c components/logout-button
+>- ng g c components/authentication-button
+>- ng g c pages/profile
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
 ## Development server
