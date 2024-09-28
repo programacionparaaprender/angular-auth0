@@ -1,13 +1,14 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
+let domain = 'dev-6sxvl7qiwspvin2i.us.auth0.com';
+let clientId = 'QHEgyvLLFcNnTTpZxtjI5yA9r6gpAsGz'
 
 export const environment = {
   production: false,
   AUTH0:{
-    DOMAIN: '{{}}',
-    CLIENTID: '{{}}'
+    DOMAIN: domain,
+    CLIENTID: clientId
   }
 };
 
